@@ -1,0 +1,9 @@
+{
+  "name": "Cornell New Tab",
+  "description": "Cornell new tab page for Google Chrome.",
+  "version": "0.1",
+  "incognito": "split",
+  "chrome_url_overrides": {"newtab": "start-page.html"},
+  "permissions": ["bookmarks", "history", "storage"],
+  "manifest_version": 2
+}
